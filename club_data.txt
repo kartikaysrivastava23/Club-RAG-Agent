@@ -1,0 +1,129 @@
+GDGC DOCUMENT FOR ML TEAm  
+Google Developer Group on Campus are university-based community groups for 
+students interested in Google developer technologies. Students from all 
+undergraduate or graduate programs with an interest in growing as a developer are 
+welcome. By joining a GDGC, students grow their knowledge in a peer-to-peer 
+learning environment and build solutions for local businesses and their communities. 
+It is open to any student, ranging from novice developers who are just starting, to 
+advanced developers who want to further enhance their skills. It is intended to be a 
+platform for students to learn and collaborate as they solve problems around them 
+with the help of technology. 
+Opportunities GDGC Provides to Students 
+ Grow their knowledge of developer technologies and more through peer-to-
+peer workshops and events. 
+ Gain relevant industry experience by solving problems for local organizations 
+with technology-based solutions. 
+ Showcase their prototypes and solutions to their local community and industry 
+leaders. 
+ Getting inspiration to become world-class developers and changemakers from 
+sharing others' success stories. 
+Our Vision 
+Our vision is to create a community of developers who are passionate about 
+technology and are willing to learn and grow together. We aim to provide a platform 
+for students to learn and collaborate as they solve problems around them with the 
+help of technology. 
+Our Mission 
+Our mission is to provide students with the resources and opportunities to learn and 
+grow as developers. We aim to create a community of developers who are 
+passionate about technology and are willing to learn and grow together. 
+ 
+PAST EVENTS CONDUCTED 
+ 
+ 
+1)Tech Winter Break 
+
+About this event 
+Escape the ordinary this winter with “TECH WINTER BREAK 2024”—a dynamic two-
+day online tech fest, brought to you by GDG VIT Bhopal! Whether you’re dreaming of 
+building websites, creating apps, or conquering the future of tech with tools like 
+React and Flutter, this event has something for everyone. With hands-on workshops, 
+expert guidance, and preparation for the Google Solution Challenge 2025, it’s the 
+perfect opportunity to learn, create, and grow - all from the comfort of your home. 
+Add certificates, exclusive resources, and expert mentorship to the mix, and you’ve 
+got the ultimate recipe for a tech-fueled winter adventure. 
+ 
+Day 1: Web Development (14th Dec, 1:30 PM – 3:30 PM): 
+On Day 1, dive into the exciting world of Web Development and learn how to create 
+websites that aren’t just functional but unforgettable. You’ll learn to create amazing 
+web apps using React and Flask! This hands-on session will guide you through 
+modern tools, frameworks, and design principles to build impactful websites that 
+stand out in today’s competitive digital landscape, turning your ideas into digital art. 
+ 
+Day 2: Flutter Apps (15th Dec, 6:00 PM – 8:00 PM): 
+Ready to go beyond the web and into the world of apps? Day 2 is all about Flutter 
+and Dart, where you will learn how to build stunning cross-platform apps that work 
+seamlessly on your Android. From powerful widgets to smooth user interfaces, you’ll 
+be creating apps that look and feel amazing on any device. Think of it as your crash 
+course in being the next big thing in app development. 
+ 
+Some Special Requirements for Day 2: 
+Windows: https://youtu.be/mMeQhLGD-og?si=JAGtb9gokApCL8Vc 
+MacOS: https://youtu.be/kLpFZm_3Epk?si=Zb4eVIXj9eYBrgFQ  
+ 
+Takeaways: 
+Get set for an exhilarating winter journey into the world of technology with TECH 
+WINTER BREAK 2024, hosted by GDG on Campus Vellore Institute of Technology, 
+Bhopal. This two-day online tech fest is designed to fuel your passion for learning 
+and innovation. 
+ 
+Why Join? 
+
+ Learn by Doing: Master industry-leading tools like React, Node.js, and Flutter 
+to build next-gen web and mobile apps. 
+ Get Ahead: Boost your portfolio with certificates and exclusive resources, and 
+stay one step ahead with guidance from tech experts. 
+ Connect and Collaborate: Meet fellow tech enthusiasts, share ideas, and find 
+your next collaborator or mentor. 
+ Shape Your Future: Prepare yourself for real-world challenges and 
+opportunities, including Google’s global competition. 
+ 
+Who Should Join? 
+Whether you're: 
+ A beginner ready to take your first steps in tech. 
+ A student looking to level up your skills. 
+ A developer eager to explore modern frameworks. 
+ If you’ve got the passion, we’ve got the platform. 
+ 
+What You’ll Gain 
+ Day 1: Learn to create unforgettable web apps using React and Node.js—turn 
+your ideas into digital art. 
+ Day 2: Master Flutter to build stunning, cross-platform apps that feel at home 
+on any device. 
+ Certifications, practical knowledge, and expert guidance to take your tech 
+journey to the next level. 
+ A head start in Google’s global challenge and the tools to build something 
+extraordinary. 
+ 
+What You’ll Need 
+ A laptop or desktop with a reliable internet connection. 
+ Basic programming know-how 
+ 
+Why Wait? 
+
+This isn’t just another online event; it’s a two-day experience designed to help you 
+unlock your potential, meet like-minded innovators, and embrace the future of 
+development—all without leaving your cosy corner. 
+ 
+TECH WINTER BREAK 2024 - Your journey starts here 
+ 
+2)Google Olympics 2k25 
+Hosted by Google Developer Group – VIT Bhopal, this flagship event is 
+the ultimate fusion of tech, strategy, and sportsmanship! Teams of four 
+will represent different countries and battle through mind-bending 
+challenges that test logic, technical skills, quick thinking, and teamwork. 
+As the games unfold, expect chaos, plot twists, emotional rollercoasters, 
+and betrayal levels straight out of a reality show. The gold isn’t just a 
+medal—it’s your ticket to immortality in campus history. 
+3) BUILD WITH AIs 
+Join us for an exciting day of innovation and learning at "Build with AI: 
+VITB Edition"! 
+This event is a part of the global series aimed at empowering developers 
+and enthusiasts with the latest in artificial intelligence and machine 
+learning from Google. Dive deep into interactive workshops where you'll 
+learn to integrate AI tools into real-world projects. 
+ This event is perfect for both beginners eager to explore AI and 
+experienced coders looking to enhance their skills.  
+ Be ready to collaborate with peers, work on exciting challenges, 
+and showcase your innovations.  
+Don’t miss the opportunity to be a part of something big and 
+transformative. Bring your ideas, laptops, and enthusiasm!
