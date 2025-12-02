@@ -1,0 +1,105 @@
+# RAG Evaluation Queries for GDGC Club Project
+# These queries test factual accuracy, retrieval quality, and fallback behavior.
+# Expected results are included as guidance.
+
+------------------------------------------------------------
+1. What is GDG on Campus?
+EXPECTED:
+Answer describing GDG as a university-based community group for students interested in Google developer technologies. (Chunk 0)
+
+------------------------------------------------------------
+2. What opportunities does the club provide to students?
+EXPECTED:
+Mentorship, workshops, peer learning, solving real problems, showcasing prototypes. (Chunks 0–1)
+
+------------------------------------------------------------
+3. What is the mission of the club?
+EXPECTED:
+Provide students with resources and opportunities to learn and grow as developers. (Chunk 2)
+
+------------------------------------------------------------
+4. What is the vision of the club?
+EXPECTED:
+Create a community of developers who grow together and solve problems with technology. (Chunk 2)
+
+------------------------------------------------------------
+5. What events were conducted in the past?
+EXPECTED:
+Tech Winter Break, Build with AI, and others mentioned. (Chunks 2–8)
+
+------------------------------------------------------------
+6. What is Tech Winter Break?
+EXPECTED:
+A two-day online tech fest with Web Dev and Flutter sessions. (Chunks 3–5)
+
+------------------------------------------------------------
+7. What are the topics covered in Tech Winter Break?
+EXPECTED:
+Day 1: Web Development (React, Node.js)
+Day 2: Flutter Apps  
+(Chunks 3–5)
+
+------------------------------------------------------------
+8. Who can participate in the events?
+EXPECTED:
+Any student interested in learning, from novices to advanced developers. (Chunk 0–1)
+
+------------------------------------------------------------
+9. Are certificates provided?
+EXPECTED:
+Yes — participation certificates are part of the event benefits. (Chunk 5 or event description)
+
+------------------------------------------------------------
+10. What are the prerequisites for joining?
+EXPECTED:
+Basic programming knowledge and a reliable internet connection. (Chunk 7)
+
+------------------------------------------------------------
+11. Who should join the events?
+EXPECTED:
+Beginners, intermediate learners, developers wanting to level up. (Chunk 6–7)
+
+------------------------------------------------------------
+12. Do the events help students gain industry experience?
+EXPECTED:
+Yes — by solving real problems for local organizations. (Chunk 1)
+
+------------------------------------------------------------
+13. What is Build with AI?
+EXPECTED:
+A global AI-based workshop event. (Chunk 8)
+
+------------------------------------------------------------
+14. What is the format of the Build with AI event?
+EXPECTED:
+Hands-on innovation day, empowering developers with AI. (Chunk 8)
+
+------------------------------------------------------------
+15. What benefits do students get from joining GDGC?
+EXPECTED:
+Skill growth, workshops, mentorship, exposure, community learning. (Chunks 0–1)
+
+------------------------------------------------------------
+16. Does the club support beginners?
+EXPECTED:
+Yes — open to novice developers. (Chunk 0)
+
+------------------------------------------------------------
+17. Show me the list of all events mentioned.
+EXPECTED:
+Tech Winter Break, Build with AI (plus any others present in club_data.txt). (Chunks 2–8)
+
+------------------------------------------------------------
+18. What does the club NOT mention?
+EXPECTED:
+"I don't know based on the provided club data."
+
+------------------------------------------------------------
+19. What is the club’s plan for 2025?
+EXPECTED:
+"I don't know based on the provided club data."
+
+------------------------------------------------------------
+20. Does the document mention fees or payments?
+EXPECTED:
+"I don't know based on the provided club data."
