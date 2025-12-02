@@ -1,0 +1,7 @@
+numpy==1.26.4
+streamlit==1.51.0
+pyngrok==7.5.0
+openai==2.8.1
+scikit-learn==1.7.2
+pypdf==3.12.0
+rank_bm25==0.2.2
