@@ -1,8 +1,8 @@
 # Club Information RAG Agent
 
-This repository contains a simple yet effective Retrieval-Augmented Generation (RAG) agent designed to answer questions about a specific document. Built with Streamlit and powered by OpenAI/OpenRouter models, this application serves as a conversational interface to a knowledge base, in this case, a document about a student developer club.
+This repository contains a simple yet effective Retrieval-Augmented Generation (RAG) agent designed to answer questions about a specific document. Built with Streamlit and powered by OpenAI/OpenRouter models, this application serves as a conversational interface to a knowledge base—in this case, a document about a student developer club.
 
-The agent ensures that answers are strictly derived from the provided text, telling the user when information is not available in the source document.
+The agent ensures that answers are strictly derived from the provided text, telling the user when information is not available in the source document. It also includes a user feedback mechanism to collect data on answer quality.
 
 ## Features
 
@@ -11,8 +11,9 @@ The agent ensures that answers are strictly derived from the provided text, tell
 - **Hybrid Search:** Implements a two-stage retrieval process:
     1.  **Vector Search:** Fast retrieval of semantically similar text chunks using cosine similarity.
     2.  **Re-ranking:** Improves relevance by re-ordering results based on a combined score of semantic similarity and keyword overlap.
-- **Interactive UI:** A simple and clean user interface built with Streamlit for asking questions and managing the data source.
+- **Interactive UI:** A simple and clean user interface built with Streamlit for asking questions, managing the data source, and providing feedback.
 - **Source-Grounded Answers:** The LLM is prompted to answer *only* using the retrieved context, preventing hallucinations and ensuring factual responses based on the document.
+- **Feedback Collection:** A built-in UI for users to label answers as "Correct," "Partially correct," or "Incorrect," with the results saved to `feedback.csv`.
 
 ## How It Works
 
@@ -56,14 +57,12 @@ The application follows a standard RAG pipeline:
     ```
 
 3.  **Install the required packages:**
-    The application requires the following Python libraries. You can install them directly:
     ```bash
-    pip install streamlit openai numpy scikit-learn
+    pip install -r requirements.txt
     ```
 
 4.  **Set up environment variables:**
     You must set your API key as an environment variable. Create a file named `.env` in the root directory and add the following line:
-
     ```
     OPENROUTER_API_KEY="your-api-key-here"
     ```
@@ -83,21 +82,25 @@ The application follows a standard RAG pipeline:
     - The application will automatically build an index from the default `club_data.txt` on the first run.
     - Type your question into the text input field and press "Ask".
     - You can use the sidebar to upload your own `.txt` file and click "Build / Rebuild Index" to use it as the new knowledge source.
+    - After an answer is generated, use the feedback form to rate its helpfulness.
 
 ## Configuration
 
 The application can be configured using the following environment variables:
 
-| Variable                | Description                                                                 | Default Value                    |
-| ----------------------- | --------------------------------------------------------------------------- | -------------------------------- |
-| `OPENROUTER_API_KEY`    | **(Required)** Your API key for OpenRouter.                                 | `None`                           |
-| `OPENROUTER_API_BASE`   | The base URL for the API endpoint.                                          | `https://openrouter.ai/api/v1`   |
-| `CHAT_MODEL`            | The chat model to use for generating answers.                             | `openai/gpt-4o-mini`             |
-| `EMBEDDING_MODEL`       | The embedding model to use for vectorization.                             | `openai/text-embedding-3-small`  |
-| `TOP_K`                 | The number of initial document chunks to retrieve for context.              | `6`                              |
+| Variable              | Description                                                  | Default Value                    |
+| --------------------- | ------------------------------------------------------------ | -------------------------------- |
+| `OPENROUTER_API_KEY`  | **(Required)** Your API key for OpenRouter.                  | `None`                           |
+| `OPENROUTER_API_BASE` | The base URL for the API endpoint.                           | `https://openrouter.ai/api/v1`   |
+| `CHAT_MODEL`          | The chat model to use for generating answers.                | `openai/gpt-4o-mini`             |
+| `EMBEDDING_MODEL`     | The embedding model to use for vectorization.                | `openai/text-embedding-3-small`  |
+| `TOP_K`               | The number of initial document chunks to retrieve for context. | `6`                              |
 
 ## File Descriptions
 
--   `app.py`: The main Streamlit application file. It handles the UI, state management, and orchestrates the RAG pipeline.
--   `embeddings_utils.py`: Contains utility functions for text processing (chunking, cleaning), creating embeddings, the `SimpleVectorStore` class, and the re-ranking logic.
--   `club_data.txt`: The default knowledge base document. It contains information about the Google Developer Group on Campus (GDGC) and its events.
+-   `app.py`: The main Streamlit application file. It handles the UI, state management, and orchestrates the RAG pipeline, including feedback collection.
+-   `embeddings_utils.py`: Contains utility functions for text processing (chunking), creating embeddings, the `SimpleVectorStore` class, and the re-ranking logic.
+-   `club_data.txt`: The default knowledge base document. It contains information about the Google Developer Group on Campus (GDGC) and its past events.
+-   `requirements.txt`: A list of all Python packages required to run the application.
+-   `feedback.csv`: A CSV file where user feedback on answer quality is stored.
+-   `tests/eval_queries.txt`: A text file containing a set of evaluation queries and their expected answer types, used for testing the agent's accuracy and fallback behavior.
